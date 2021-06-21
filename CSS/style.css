@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #299AC7;
+    
+}
+body {
+    min-height: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.ln {
+    border: solid 1px #424242;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px 18px 30px 18px;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+.navigation {
+    border-bottom: #ffffff solid 1px;
+}
+nav {
+    width: 73%;
+    padding: 1%;
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+li {
+    color: #FFFFFF;
+    font-size: 22px;
+}
+/* #contact-button {
+    font-size: 22px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #011F26;
+    border: none;
+    border-radius: 50px;
+    padding: 28px 16px;
+    text-decoration: none;
+    /* align-self: center; */
+    text-align: center;
+    display: flex; */
+}
+.heroimg {
+    display: flex;
+    height: 1070px;
+    padding: 25px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    margin: 0 auto;
+}
+.hero-h2 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 500;
+}
+#avatar {
+    width: 300px;
+    border-radius: 100%;
+    justify-content: center;
+    align-self: center;
+    display: inline-block;
+}
+.hi-there {
+    color: #FFFFFF;
+    font-size: 28px;
+    margin: 0 auto;
+    font-weight: 500;
+}
+#regular {
+    color: #FFFFFF;
+    font-size: 22px;
+    width: 550px;
+    font-weight: 400;
+    display: inline-block;
+    margin: 0 auto;
+}
+#download-button {
+    display: inline-block;
+}
+.button-resume {
+    font-size: 22px;
+    width: 250px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #011F26;
+    border: none;
+    border-radius: 50px;
+    padding: 28px 16px;
+    text-decoration: none;
+    /* align-self: center; */
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.button-resume:hover {
+    color: #299AC7;
+    background-color: #FFFFFF;
+    font-weight: ;
+}
+footer {
+    background-color: #373738;
+    margin-top: auto;
+    padding-left: 23%;
+}
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1%;
+}
