@@ -28,6 +28,7 @@ header {
     padding: 30px 10%;
     height: 97px;
     border-bottom: 1px solid #FFFFFF;
+    max-height: 100px;
 }
 .logo {
     cursor: pointer;
