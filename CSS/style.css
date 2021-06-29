@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    list-style: none;
 
 }
 html, body {
@@ -231,6 +232,7 @@ button:hover {
     padding: 16px 4px;
     margin-top: 1rem;
     border-radius: 50px;
+    width: 300px;
    
     /* width: 200px;
     height: 200px; */
@@ -317,6 +319,7 @@ button:hover {
 }
 .featured-one {
     display: flex;
+    flex-direction: row wrap;
     justify-content: center;
     margin-bottom: 8rem;
 }
@@ -338,7 +341,7 @@ button:hover {
 }
 .one-left {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: row;
     width: 50%;
     margin-right: 2rem;
     max-height: 450px;
@@ -368,13 +371,52 @@ button:hover {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-emphasis: center;
     background: #abeaff;
     min-height: 280px;
     margin-top: auto;
-    padding-left: 23%;
-    display: inline-block;
+    text-align: center;
 }
 
 
+@media only screen and (max-width: 1600px){
+    .featured {
+        padding: 50px 50px;
+    }
+}
 
+@media only screen and (max-width: 1200px){
+    header {
+        padding: 1rem 1rem;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .nav-links {
+        display: none;
+    }
+    header {
+        padding: 1rem 3rem; 
+    }
+    .featured-one {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15%;
+    }
+    .one-right {
+        margin-top: 2rem;
+        margin-left: 7rem;
+        width: 100%;
+        
+    }
+    .one-left {
+        margin-right: 0rem;
+        justify-content: center;
+        width: 100%;
+       
+    }
+}
 
