@@ -33,7 +33,7 @@ header {
 .logo {
     cursor: pointer;
     margin-right: auto;
-    font-size: 40px;
+    font-size: 2.3vw;
     color: #FFFFFF;
     font-weight: 500;
 }
@@ -45,7 +45,9 @@ header {
 .nav-links li {
     display: inline-block;
     padding: 0px 3rem;
+    
 }
+
 
 .nav-links li a {
     transition: all 0.3 ease 0s;
@@ -107,6 +109,9 @@ button:hover {
     margin: 0 auto;
     margin-right: 3em;
 }
+.avatar-container {
+    margin: 0 auto;
+}
 .content-right {
     display: flex;
     flex-direction: column;
@@ -120,6 +125,7 @@ button:hover {
     font-size: 45px;
     font-weight: 500;
     justify-content: center;
+    padding-top: 3rem;
 }
 .hero-h3 {
     display: flex;
@@ -128,7 +134,9 @@ button:hover {
     font-size: 35px;
     font-weight: 300;
     justify-content: center;
+    padding-bottom: 3rem;
 }
+
 #avatar {
     width: 300px;
     border-radius: 100%;
@@ -248,7 +256,7 @@ button:hover {
 }
 
 <<<<AVAILABLE ANIMATION>>>>
-/* .blob {
+.blob {
 	background: #fdc074;;
 	border-radius: 50%;
 	margin: 10px;
@@ -275,7 +283,7 @@ button:hover {
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
-} */
+} 
 
 .icon {
     display: flex;
